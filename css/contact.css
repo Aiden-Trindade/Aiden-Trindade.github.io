@@ -1,0 +1,57 @@
+.Contact-Me-Div{
+        margin-top: 60px;
+        height: 100px;
+
+    }
+
+    .Contact-Me-Title{
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .Contact-Me{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 27px;
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .Github,
+    .LinkedIn,
+    .Gmail {
+        text-decoration: none;
+        color: #2563eb;
+        font-family: 'Inter', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        margin: 0 8px;
+        transition: color 0.2s ease;
+    }
+
+    .Github:hover,
+    .LinkedIn:hover,
+    .Gmail:hover {
+        color: #1d4ed8;
+        text-decoration: underline;
+    }
+
+    .Github:visited,
+    .LinkedIn:visited,
+    .Gmail:visited {
+        color: #2563eb;
+    }
+
+    .Github:active,
+    .LinkedIn:active,
+    .Gmail:active {
+        color: #1e40af;
+    }
