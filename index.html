@@ -1,5 +1,5 @@
     <!DOCTYPE html>
-    <html>
+    <html lang="en" style="scroll-behavior: smooth;">
       
     <head>
         <title> My Portfolio </title>
@@ -8,18 +8,29 @@
         <link rel="stylesheet" href="css/skills.css">
         <link rel="stylesheet" href="css/projects.css">
         <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/navbar.css">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
       </head>
       
       
       <body>
+      <div class="Navbar">
+
+      <div class="Name"> Aiden.exe </div>
       
-      <p class="Name"> Aiden.exe </p>
+      <div class="Nested-Flex-Navbar">
+        <a href="#about" class="Navbar-Const-1">About</a>
+        <a href="#skills" class="Navbar-Const-2">Skills</a>
+        <a href="#projects" class="Navbar-Const-3">Projects</a>
+        <a href="#contact" class="Navbar-Const-4">Contact</a>
+      </div>
+      
+      </div>
       <h1 class="Name-Title"> Aiden Trindade </h1>
       <p class="Info">Vellore Institute of Technology | ajef1479@gmail.com | +91 9322900543 </p>
       
-      <div class="About-Div">
-        <p = class="About-Me"> Self glazing here (dont skip) </p>
+      <div id = "about" class="About-Div">
+        <p  class="About-Me"> Self glazing here (dont skip) </p>
         <div class="Nested-Flex-About">
         
           
@@ -30,14 +41,14 @@
           </div>
           <div class="About">
 
-          <p>I'm Aiden, CSE sophomore at VIT Vellore, currently sitting at a 2300 ELO on Lichess.com, which is either deeply impressive or deeply concerning, depending on how you feel about a student whos got that much free time. I am also apparently attending college, based on the CGPA. Make of that what you will. I do code too, occasionally. Currently learning web dev, mostly out of guilt.</p>
+          <p>I'm Aiden, CSE sophomore at VIT Vellore, currently sitting at a 2300 ELO on Lichess.com, which is either deeply impressive or deeply concerning, depending on how you feel about a student whos got that much free time. I am also apparently attending college, based on the CGPA. I do code too, occasionally. Currently learning web dev, mostly out of guilt. Added a navbar, because scrolling down a webpage requires energy.</p>
 
           </div>
         
         </div>
       </div>
 
-      <div class="Skills-Div">
+      <div id = "skills" class="Skills-Div">
         <div class="Outline">
 
           <p class="Skills-Title">Skills (self rated, generously)</p>
@@ -56,7 +67,7 @@
 
         <p class="Project-Title">Projects</p>
       
-      <div class="Projects">
+      <div id = "projects" class="Projects">
         <div class="Project-1" >
           
           <p class="Project-Name">Portfolio Site</p>
@@ -85,7 +96,7 @@
         <div class="Project-3"><p class="Project-Name">Project 3</p></div>
       </div>
       
-        <div class="Contact-Me-Div">
+        <div id = "contacts" class="Contact-Me-Div">
           <p class="Contact-Me-Title">Yell at me here</p>
           <div class="Contact-Me">
             
@@ -103,7 +114,5 @@
         </div>
 
       </body>
-
-
 
     </html>
