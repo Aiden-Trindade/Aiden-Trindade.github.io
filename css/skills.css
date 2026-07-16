@@ -1,5 +1,5 @@
  .Skills-Div{
-        margin-top: 30px;
+        margin-top: 50px;
         height: 210px;
         margin-right: 15px;
         margin-left: 15px;
@@ -18,6 +18,30 @@
     }
 
     .Outline{
-        background-color: #eeeeee;
+        background-color: #e0e0e0;
         height: 210px;
+    }
+
+    .Skills-Bubbles{
+        display: flex;
+        flex-direction: row;
+        gap: 27px;
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+
+    .Bubbles{
+        flex: 1;
+        margin-left: 45px;
+        margin-top:  18px;
+        font-size: 22px;
+        font-weight: 300;
+        background-color: #eeeeee;
+        border: 1px solid black;
+        border-radius: 6px;
+        text-align: center;
+        margin-right: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
     }
