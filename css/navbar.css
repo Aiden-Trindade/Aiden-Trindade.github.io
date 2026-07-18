@@ -7,7 +7,7 @@
         left: 0;
         width: 100%;
         z-index: 1000;
-        box-sizing: bborder-box;
+        box-sizing: border-box;
         background-color: #ffffff; 
         border-bottom: 2px solid #d5d5d3;
     }
