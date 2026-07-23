@@ -14,4 +14,16 @@
         margin-top: 0;
     }
 
-    
+   
+/* DARK MODE CSS STARTS HERE, IMMA CP THIS ON THE OTHER FILES TOO */
+
+    body.dark-mode {
+        background-color: #121212;
+        color: #f5f5f5;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    body.dark-mode .Name-Title,
+    body.dark-mode .Info {
+        color: #ffffff;
+    }

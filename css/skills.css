@@ -45,3 +45,18 @@
         padding-bottom: 10px;
 
     }
+    
+
+/* DARK MODE CSS STARTS HERE, IMMA CP THIS ON THE OTHER FILES TOO */
+    
+    body.dark-mode .Skills-Div,
+    body.dark-mode .Outline {
+        background-color: #1e1e1e;
+        border-color: #333333;
+    }
+
+    body.dark-mode .Bubbles {
+        background-color: #2a2a2a;
+        color: #ffffff;
+        border-color: #444444;
+    }

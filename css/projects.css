@@ -91,3 +91,40 @@
         font-family: 'Inter', sans-serif;
         color: #1a1a1a;
     }
+
+
+/* DARK MODE CSS STARTS HERE, IMMA CP THIS ON THE OTHER FILES TOO */
+
+
+    body.dark-mode .Project-1,
+    body.dark-mode .Project-2,
+    body.dark-mode .Project-3 {
+        background-color: #1e1e1e;
+        border-color: #333333;
+    }
+
+    body.dark-mode .Project-Name {
+        color: #ffffff;
+    }
+
+    body.dark-mode .Portfolio-Site-Content {
+        color: #d1d5db;
+    }
+
+    body.dark-mode .Skills-For-Project {
+        background-color: #2a2a2a;
+        color: #ffffff;
+        border-color: #444444;
+    }
+
+    body.dark-mode .Links {
+        color: #60a5fa;
+    }
+
+    body.dark-mode .Links:hover {
+        color: #93c5fd;
+    }
+
+    body.dark-mode .Links:visited {
+        color: #60a5fa;
+    }
