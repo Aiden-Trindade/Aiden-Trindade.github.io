@@ -1,11 +1,16 @@
 let buttons_pressed = 0;
 
+const button1 = document.querySelector(".Dark-Mode");        //So the button can be accessed before the next if/else//
+
 let mode = localStorage.getItem("theme");
 if(mode === "dark"){                                          //Checks if light or dark mode was last one//
     document.body.classList.add("dark-mode");
+    button1.innerHTML = "Enable Light Mode";
+}else{
+    button1.innerHTML = "Enable Dark Mode";
 }
 
-const button1 = document.querySelector(".Dark-Mode");
+
 button1.addEventListener("click",()=>{
     document.body.classList.toggle("dark-mode");
 
