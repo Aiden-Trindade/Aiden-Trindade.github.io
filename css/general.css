@@ -14,6 +14,64 @@
         margin-top: 0;
     }
 
+    .One-Liners{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-left: 200px;
+        margin-right: 150px;
+        height: 130px;
+        margin-top: 40px;
+    }
+
+     .Taglines{
+        flex: 1;
+        font-style: italic;
+        font-family: 'Inter', sans-serif;
+        color: #1a1a1a;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .Buttons-For-Taglines{
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        margin-left: 280px;
+        margin-right: 330px;
+    }
+
+    .Another-One{
+        flex: 0.60;
+        margin-right: 20px;
+        font-style: italic;
+        font-family: 'Inter', sans-serif;
+        color: #1a1a1a;
+        font-size: 15px;
+        border-radius: 8px;
+        
+    }
+
+    .Remove{
+        flex: 1;
+        margin-left: 20px;
+        font-style: italic;
+        font-family: 'Inter', sans-serif;
+        color: #1a1a1a;
+        font-size: 15px;
+        border-radius: 8px;
+
+    }
+
+    .Hide{
+        display: none;
+    }
+
+   
+
    
 /* DARK MODE CSS STARTS HERE, IMMA CP THIS ON THE OTHER FILES TOO */
 
@@ -27,3 +85,4 @@
     body.dark-mode .Info {
         color: #ffffff;
     }
+
