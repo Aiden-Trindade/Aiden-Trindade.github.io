@@ -41,7 +41,7 @@ button1.addEventListener("click",function(){
 
 
 const arr1 = [
-     "You've seen 12 taglines now. Statistically, you've spent more time here than on my actual projects.",
+     "You've seen 4 taglines now. Statistically, you've spent more time here than on my actual projects.",
      "I appreciate the dedication but there's an About section down there too.",
      "At this point you know more of my jokes than my actual skills. Concerning.",
      "Bro just scroll down, there's an entire portfolio under here.",
